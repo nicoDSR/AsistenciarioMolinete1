@@ -54,11 +54,22 @@
     <splash platform="android" qualifier="port-hdpi" src="www/res/screen/android/screen-hdpi-portrait.png" />
     <splash platform="android" qualifier="port-xhdpi" src="www/res/screen/android/screen-xhdpi-portrait.png" />
     <splash platform="blackberry" src="www/res/screen/blackberry/screen-225.png" />
-    <splash platform="ios" height="480" src="www/res/screen/ios/screen-iphone-portrait.png" width="320" />
-    <splash platform="ios" height="960" src="www/res/screen/ios/screen-iphone-portrait-2x.png" width="640" />
-    <splash platform="ios" height="1136" src="www/res/screen/ios/screen-iphone-portrait-568h-2x.png" width="640" />
-    <splash platform="ios" height="1024" src="www/res/screen/ios/screen-ipad-portrait.png" width="768" />
-    <splash platform="ios" height="768" src="www/res/screen/ios/screen-ipad-landscape.png" width="1024" />
+
+	
+	<platform name="ios">
+    <!-- images are determined by width and height. The following are supported -->
+    <splash src="www/res/screen/ios/screen-iphone-portrait.png" width="320" height="480"/>
+	<splash src="rwww/res/screen/ios/screen-iphone-portrait-2x.png" width="640" height="960"/>
+    <splash src="www/res/screen/ios/screen-iphone-portrait-568h-2x.png" width="640" height="1136"/>	
+	<splash src="www/res/screen/ios/screen-ipad-portrait.png" width="768" height="1024"/>	
+    <splash src="www/res/screen/ios/screen-ipad-landscape.png" width="1024" height="768"/>    
+    <splash src="www/res/screen/ios/screen-ipad-portrait-2x.png" width="1536" height="2048"/>
+    <splash src="www/res/screen/ios/screen-iphone-portrait-568h-2x" width="750" height="1334"/>
+    <splash src="www/res/screen/ios/screen-ipad-landscape-2x" width="2048" height="1536"/>
+    <splash src="www/res/screen/ios/screen-ipad-portrait-2x" width="1242" height="2208"/>
+    <splash src="www/res/screen/ios/screen-ipad-landscape-2x" width="2208" height="1242"/>
+	</platform>
+
     <splash platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
     <access origin="*" />
     <plugin name="cordova-plugin-whitelist" version="1" />
