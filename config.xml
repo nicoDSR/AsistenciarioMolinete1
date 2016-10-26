@@ -64,10 +64,10 @@
 	<splash src="www/res/screen/ios/screen-ipad-portrait.png" width="768" height="1024"/>	
     <splash src="www/res/screen/ios/screen-ipad-landscape.png" width="1024" height="768"/>    
     <splash src="www/res/screen/ios/screen-ipad-portrait-2x.png" width="1536" height="2048"/>
-    <splash src="www/res/screen/ios/screen-iphone-portrait-568h-2x" width="750" height="1334"/>
-    <splash src="www/res/screen/ios/screen-ipad-landscape-2x" width="2048" height="1536"/>
-    <splash src="www/res/screen/ios/screen-ipad-portrait-2x" width="1242" height="2208"/>
-    <splash src="www/res/screen/ios/screen-ipad-landscape-2x" width="2208" height="1242"/>
+    <splash src="www/res/screen/ios/screen-iphone-portrait-568h-2x.png" width="750" height="1334"/>
+    <splash src="www/res/screen/ios/screen-ipad-landscape-2x.png" width="2048" height="1536"/>
+    <splash src="www/res/screen/ios/screen-ipad-portrait-2x.png" width="1242" height="2208"/>
+    <splash src="www/res/screen/ios/screen-ipad-landscape-2x.png" width="2208" height="1242"/>
 	</platform>
 
     <splash platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
